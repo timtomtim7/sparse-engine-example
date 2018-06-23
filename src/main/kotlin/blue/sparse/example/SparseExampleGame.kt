@@ -8,9 +8,8 @@ import blue.sparse.engine.render.resource.Texture
 import blue.sparse.engine.render.resource.shader.ShaderProgram
 import blue.sparse.engine.render.scene.component.ModelComponent
 import blue.sparse.math.vectors.floats.Vector3f
-import javafx.scene.transform.Rotate
 
-class SparseExampleGame: SparseGame() {
+class SparseExampleGame : SparseGame() {
 
 	// Load and compile the shader program.
 	// First parameter is the asset of the fragment shader
@@ -55,7 +54,6 @@ class SparseExampleGame: SparseGame() {
 	}
 
 	override fun update(delta: Float) {
-
 		// Update the camera
 		camera.update(delta)
 
